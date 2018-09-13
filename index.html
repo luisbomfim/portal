@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Portal</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</head>
+<body>
+
+<!-- Primeiro Topo do Site -->
+
+<div class="topo">
+   <div class="topoint">
+      <div class="topoleft"> 
+         <ul>
+            <li> <a class="ativo" href="./">Home </a> </li>
+            <li> <a href="">Quem Somos </a> </li>
+            <li> <a href="">Anuncie Aqui </a> </li>
+            <li> <a href="">Contato </a> </li>
+         </ul>
+      </div>
+      <div class="toporight"> 
+           <input type="image" src="assets/img/lupa_branca2.png"  border="0" width="26" height="26" />
+           <input type="text" class="topobusca"  name="busca" placeholder="Busca..." />
+           <a href=""> <img src="assets/img/youtube.png" border="0"  height="26" width="26" /> </a>
+           <a href=""> <img src="assets/img/Twitter.png" border="0"  height="26" width="26" /> </a>
+           <a href=""> <img src="assets/img/facebook.png" border="0"  height="26" width="26" /> </a>
+           <a href=""> <img src="assets/img/google_plus.png" border="0"  height="26" width="26" /> </a>
+           <a href=""> <img src="assets/img/rss3.png" border="0"  height="26" width="26" /> </a>
+           
+      </div>
+   </div>
+ </div>
+
+<!-- Barra com a Logo e Publicidade -->
+<div class="topo2">
+    <div class="topo2int">
+       <div class="logo">
+            <img src="assets/img/logo.jpg" border="0" width="230" />
+
+       </div>
+       <div class="publicidade">
+
+       </div>
+    </div>
+ </div>
+
+
+
+<!-- Barra de menu -->
+<div class="menu">
+    <div class="menuint">
+        <ul>
+            <li><a class="ativo" href="./"> Home </a></li>
+            <li><a href="./">Economia</a></li>
+            <li>
+                <a href="./">Entretenimento</a>
+                <img src="assets/img/down-arrow.png" border="0" width="10" />
+                <div class="submenu">
+                    <a href="./"> <div class="submenuitem">Submenu 1</div></a>
+                    <a href="./"> <div class="submenuitem">Submenu 2</div></a>
+                    <a href="./"> <div class="submenuitem">Submenu 3</div></a>
+                    <a href="./"> <div class="submenuitem">Submenu 4</div></a>
+                    <a href="./"> <div class="submenuitem">Submenu 5</div></a>
+                </div>
+            </li>
+            <li>
+                <a href="./">Esportes </a>
+                <img src="assets/img/down-arrow.png" border="0" width="10" />
+                <div class="submenu">
+                        <a href="./"> <div class="submenuitem">Submenu 1</div></a>
+                        <a href="./"> <div class="submenuitem">Submenu 2</div></a>
+                        <a href="./"> <div class="submenuitem">Submenu 3</div></a>
+                     
+                </div>
+            </li>
+            <li><a href="./">Geral</a></li>
+            <li>
+                <a href="./">Notícias</a>
+                <img src="assets/img/down-arrow.png" border="0" width="10" />
+                <div class="submenu">
+                        <a href="./"> <div class="submenuitem">Submenu 1</div></a>
+                        <a href="./"> <div class="submenuitem">Submenu 2</div></a>
+                        <a href="./"> <div class="submenuitem">Submenu 3</div></a>
+                        <a href="./"> <div class="submenuitem">Submenu 4</div></a>
+                
+                </div>
+            </li>
+            <li><a href="./">Polícia</a></li>
+            <li><a href="./">Vídeos</a></li>
+
+        </ul>
+
+    </div>
+</div>
+
+<!-- Barra de Ultimas Notícias -->
+<div class="ultimasnoticias">
+    <div class="ultimasnoticiasint">
+        <div class="ultnoticiasarea">
+                <div class="ultnoticiastitulo">
+                     ÚLTIMAS NOTÍCIAS
+                </div>
+                <div class="ultnoticiasnoticia">
+                    Jair Bolsonaro é eleito no primeiro Turno.
+                </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Início dos Conteiners do Site -->
+<div class="container">
+    <div class="containerint">
+        
+        <!-- Lado esquerdo do site -->
+        <div class="leftside">
+            <div class="slideshow" id="slideshow">
+                <div class="slidebolinhas">
+                    <div class="bolinha" onclick="mudarSlide(0)">
+
+                    </div>
+
+                    <div class="bolinha" onclick="mudarSlide(1)">
+                        
+                    </div>
+
+                    <div class="bolinha" onclick="mudarSlide(2)">
+                        
+                    </div>
+
+                    <div class="bolinha" onclick="mudarSlide(3)">
+                        
+                    </div>
+
+
+                </div>
+                
+                
+                <div class="slideshowarea">
+                    
+                    <a href="http://www.google.com.br">
+                        <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">
+                                    Título de Teste
+                                </div>
+                                <div class="slideinfo_subtitulo">
+                                    Sub Título de teste
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                        <div class="slideinfo">
+                            <div class="slideinfo_titulo">
+                                Título de Teste 2
+                            </div>
+                            <div class="slideinfo_subtitulo">
+                                Sub Título de teste 2
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                        <div class="slideinfo">
+                            <div class="slideinfo_titulo">
+                                Título de Teste 3
+                            </div>
+                            <div class="slideinfo_subtitulo">
+                                Sub Título de teste 3
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                        <div class="slideinfo">
+                            <div class="slideinfo_titulo">
+                                Título de Teste 4
+                            </div>
+                            <div class="slideinfo_subtitulo">
+                                Sub Título de teste 4
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+
+            </div>
+
+            <div class="widget">
+                <div class="widget_titulo">
+                    NOTÍCIAS
+                </div>
+                <div class="widget_conteudo">
+                    <div class="noticiaarea1">
+                        <div class="noticiabig">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80" />
+                            </div>
+                            <div class="noticiatitulo">
+                                Algum Título Qualquer
+                            </div>
+                            <div class="noticiainfo">
+                                500 comentários
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="noticiaarea2">
+                       
+                        <!-- Primeira notícia -->
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80" />
+                            </div>
+                            <div class="noticiatitulo">
+                                Algum Título Qualquer
+                            </div>
+                            <div class="noticiainfo">
+                                500 comentários
+                            </div>
+                        </div>
+
+                        <!-- Segunda notícia -->
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80" />
+                            </div>
+                            <div class="noticiatitulo">
+                                Algum Título Qualquer
+                            </div>
+                            <div class="noticiainfo">
+                                500 comentários
+                            </div>
+                        </div>
+
+                        <!-- Terceira notícia -->
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80" />
+                            </div>
+                            <div class="noticiatitulo">
+                                Algum Título Qualquer
+                            </div>
+                            <div class="noticiainfo">
+                                500 comentários
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Quarta notícia -->
+                        <div class="noticiaitem">
+                            <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80" />
+                            </div>
+                            <div class="noticiatitulo">
+                                Algum Título Qualquer
+                            </div>
+                            <div class="noticiainfo">
+                                500 comentários
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+ 
+            </div>
+
+
+        </div>
+        
+        
+        
+        <!-- Lado direito do site -->
+        <div class="rightside">
+            <div class="widget">
+                <div class="widget_titulo">
+                    SOCIAL
+                </div>
+                <div class="widget_conteudo">
+                    <a href=""> <img src="assets/img/youtube.png" border="0"  height="26" width="26" /> </a>
+                    <a href=""> <img src="assets/img/Twitter.png" border="0"  height="26" width="26" /> </a>
+                    <a href=""> <img src="assets/img/facebook.png" border="0"  height="26" width="26" /> </a>
+                    <a href=""> <img src="assets/img/google_plus.png" border="0"  height="26" width="26" /> </a>
+                    <a href=""> <img src="assets/img/rss3.png" border="0"  height="26" width="26" /> </a>
+                </div>
+ 
+            </div>
+
+
+            <div class="widget">
+                    <div class="widget_titulo">
+                        ULTMAS NOTÍCIAS
+                    </div>
+                    <div class="widget_conteudo">
+                        <div class="noticia_item">
+                          <a href="./">  Titulo da notícia para que fique com pelo menos duas linhas para que eu possa exemplificar direito</a>
+
+                        </div>
+
+                        <div class="noticia_item">
+                            <a href="./">  Titulo da notícia para que fique com pelo menos duas linhas para que eu possa exemplificar direito</a>
+  
+                        </div>
+
+                        <div class="noticia_item">
+                            <a href="./">  Titulo da notícia para que fique com pelo menos duas linhas para que eu possa exemplificar direito</a>
+  
+                        </div>
+
+                        <div class="noticia_item">
+                            <a href="./">  Titulo da notícia para que fique com pelo menos duas linhas para que eu possa exemplificar direito</a>
+  
+                        </div>
+
+                        <div class="noticia_item">
+                            <a href="./">  Titulo da notícia para que fique com pelo menos duas linhas para que eu possa exemplificar direito</a>
+  
+                        </div>
+
+                          
+
+
+                    </div>
+            </div>        
+
+            <div class="widget">
+                <div class="widget_titulo">
+                    PUBLICIDADE
+                </div>
+                <div class="widget_conteudo">
+                    <img src="assets/img/jquery.png" border="0" width="275"  />
+                </div>
+                
+            </div>        
+            
+            <div class="widget">
+                <div class="widget_titulo">
+                    ENCONTRE-NOS NO FACEBOOK
+                </div>
+                <div class="widget_conteudo">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdeliciasedelicados%2F&tabs&width=273&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="273" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                
+            </div>        
+
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
