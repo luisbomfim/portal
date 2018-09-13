@@ -1,5 +1,1 @@
-Esse é um exemplo de arquivo leiame
-
-Alteração no Readme para descrever melhor o sistema.
-
-teste 3
+Projeto de portal do módulo de HTML5 e CSS3
