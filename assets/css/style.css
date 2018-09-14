@@ -3,6 +3,9 @@ body {
     font-family: Arial;
     font-size: 12px;
   }
+  
+  
+  /* INICIO DA PRIMEIRA BARRA DE TOPO */
   .topo
   {
     height:30px;
@@ -60,6 +63,10 @@ body {
   .topo img {
     margin-right: 4px;
   }
+  /* FIM DA PRIMEIRA BARRA DE TOPO */
+  
+  
+  /* INICIO DA BARRA COM LOGO E PUBLICIDADE */
   .topo2 {
     height:95px;
     color:#000;
@@ -90,6 +97,11 @@ body {
     margin-top: 7px;
     background-color: #FF0000;
   }
+/* FIM DA BARRA COM LOGO E PUBLICIDADE */
+
+
+
+/* INICIO DO MENU HORIZONTAL */
   .menu {
     height: 40px;
     background-color:#FF0000;
@@ -140,7 +152,13 @@ body {
   .submenuitem:hover {
     background-color: #FFF555;
   }
+/* FIM DO MENU HORIZONTAL */
 
+
+
+
+
+/* INICIO BARRA DE NOTICIAS URGENTES */
   .ultimasnoticias {
      height: 50px;
     
@@ -177,6 +195,10 @@ body {
      font-size: 16px;
 
   }
+
+/* FIM BARRA DE NOTICIAS URGENTES */
+
+
 
   .ultnoticiasnoticia {
     color: black;
@@ -249,7 +271,7 @@ body {
 
   .slideshow {
     height: 335px;
-    background-color: gray;
+    background-color: gray; 
     overflow: hidden;
     margin-bottom: 20PX;
   }
@@ -366,7 +388,10 @@ body {
 
   }
 
-  @media only screen and (max-widht:1057px) {
+
+
+  /*  Ajuste para telas 1024  */
+  @media only screen and (min-width:906px) and (max-width:1057px) {
 
     .topoint,
     .topo2int,
@@ -379,4 +404,65 @@ body {
     .leftside {
       width: 600px;
     }
+
+    .noticiaarea1 {
+      width: 278px;
+    }
+
+    .noticiabig .noticiaimg {
+      width: 245px;
+    }
+
+    .noticiabig .noticiaimg img {
+      width: 245px;
+    }
+
   }
+
+
+  /* Ajustes para Tablets */ 
+@media only screen and (max-width:906px) {
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultimasnoticiasint,
+    .containerint {
+      max-width: 768px;
+    }
+
+    .topo2 .publicidade {  /* Removendo o Banner pois não cabe mais nessa ressolução  */
+      display: none;
+
+    }
+
+    .logo {
+      float: none;  /* Centralizando o Logo */
+      margin: auto;
+
+    }
+
+    .leftside {
+      float: none;
+      margin: auto;
+
+    }
+
+    .rightside {
+      display: none;  /* Removvendo widgets do lado direito */  
+
+    }
+
+    .noticiaarea1 {
+      width: 278px;
+    }
+
+    .noticiabig .noticiaimg {
+      width: 245px;
+    }
+
+    .noticiabig .noticiaimg img {
+      width: 245px;
+    }
+
+
+}
