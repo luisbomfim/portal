@@ -212,7 +212,7 @@ body {
     width: 100%;
     max-width: 1040px;
     margin: auto;
-    background-color: gray;
+
 
   }
 
@@ -453,15 +453,20 @@ body {
     }
 
     .noticiaarea1 {
-      width: 278px;
+      width: 430px;
     }
 
     .noticiabig .noticiaimg {
-      width: 245px;
+      width: 415px;
     }
 
-    .noticiabig .noticiaimg img {
+    .noticiabig .noticiaimg img {  /* ajustando tamanho da imagem da noticia */
+      width: 415px;
+    }
+
+    .noticiabig .noticiatitulo { /* ajustando tamanho da área do título  da noticia */
       width: 245px;
+      font-size: 25px;
     }
 
 
